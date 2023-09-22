@@ -12,9 +12,9 @@ const z1 =
    (Math.cos(a) - Math.cos(3 * a) + Math.cos(5 * a));
 console.log("z1 = " + z1); // Виводимо результат 1-го прикладу в консоль
 
-//const z2 = Math.tan(3 * a);
+const z2 = Math.tan(3 * a);
 
-//const result = z1 == z2;
-//console.log("z2 = " + result); // Виводимо результат 2-го прикладу в консоль
+const result = (z1 == z2);
+console.log("z2 = " + result); // Виводимо результат 2-го прикладу в консоль
 
-//console.log("z1 = z2 : " + result);
+console.log("z1 = z2 : " + result);
