@@ -17,4 +17,4 @@ const z2 = Math.tan(3 * a);
 const result = z1 == z2;
 console.log("z2 = " + result); // Виводимо результат 2-го прикладу в консоль
 
-//console.log("z1 = z2 : " + result);
+console.log("z1 = z2 : " + result);
