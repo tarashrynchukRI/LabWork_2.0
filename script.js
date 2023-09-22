@@ -8,7 +8,7 @@
 const a = 2.4; // Створюємо змінну і присвоюєм їй довільне значення
 
 const z1 =
-   (Math.sin(a) + Math.sin(5 * a) - Math.sin(3 * a)) /
+   (Math.sin(a) + Math.sin(5 * a) - Math.sin(3 * a));
    (Math.cos(a) - Math.cos(3 * a) + Math.cos(5 * a));
 console.log("z1 = " + z1); // Виводимо результат 1-го прикладу в консоль
 
